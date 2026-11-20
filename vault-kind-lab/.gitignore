@@ -1,0 +1,25 @@
+# Vault initialization material and tokens
+.vault-local/
+vault-keys.json
+vault-init.json
+*.token
+*.unseal
+.env
+.env.*
+!.env.example
+
+# Kubernetes / Helm local artifacts
+kubeconfig
+*.kubeconfig
+*.yaml.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
